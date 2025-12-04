@@ -1,25 +1,72 @@
 Aurora LED Matrix – Teensy 4.1 Fork
 
-In my opinion, Aurora is one of the most beautiful LED matrix projects out there. I first discovered it through Manny Miller from Cinelights, who made a fun little project on his YouTube channel. After seeing that, I really wanted to get Aurora running on my own 64x64 LED matrix.
+This is a Teensy 4.1 fork of the beautiful Aurora LED Matrix project.
 
-With Manny’s help, I got the right libraries and managed a working version on my Teensy 3.6 with the SmartMatrix Shield v4. Time passed, and recently I decided to bring the project back to life — this time on a Teensy 4.1. As usual, it wasn’t entirely smooth sailing, but I finally have a working version!
+I first discovered Aurora through Manny Miller (Cinelights) on YouTube, and I immediately wanted to run it on my own 64x64 LED matrix. With his help, I got it working on a Teensy 3.6 with the SmartMatrix Shield v4. Recently, I brought the project back to life on a Teensy 4.1 with the SmartLEDShield for Teensy v5, and after some adjustments, it’s fully functional!
 
-What Works
 
-All original patterns run perfectly.
 
-Audio-reactive patterns using the MSGEQ7 function as expected.
+Features ✨
 
-Animated GIFs display correctly.
+All original Aurora patterns work.
 
-TXT message files scroll beautifully.
+Audio-reactive patterns using the MSGEQ7 display correctly.
+
+Animated GIFs are fully supported.
+
+TXT message files scroll smoothly.
 
 Clock works with the RTC module.
 
-What Doesn’t
 
-JSON file support isn’t working yet.
 
-The menu required adjustments due to the differences between Teensy 3.6 and 4.1 chips.
+Known Limitations ⚠️
 
-Despite these minor issues, the project is fully playable and enjoyable. It’s a fun, working Aurora experience on a Teensy 4.1 — scroll messages, watch patterns, and enjoy the LEDs!
+JSON file support is not working yet.
+
+Menu required adjustments due to differences between Teensy 3.6 and 4.1 chips.
+
+
+
+Quick Start / Installation 🚀
+
+Install Arduino 1.8.12.
+
+Install Teensyduino 1.53.
+
+Connect your Teensy 4.1 with the SmartLEDShield for Teensy v5.
+
+Open the Aurora-T41.ino file in Arduino IDE.
+
+All required libraries are included in this repository.
+
+Compile and upload to your Teensy.
+
+
+
+💡 Tip: Make sure the board selected in Arduino IDE is Teensy 4.1 before compiling.
+
+
+
+Libraries Used 📚
+
+All libraries needed for this project are included in the repository. No additional downloads are required.
+
+Screenshots / GIFs (optional)
+
+
+Example of Aurora patterns running on a 64x64 matrix.
+
+
+
+Credits 🙏
+
+Original Aurora LED Matrix by Pixelmatix.
+
+Special thanks to Manny Miller (Cinelights) for guidance and library support.
+
+
+
+License 📄
+
+This fork follows the same license terms as the original project.
